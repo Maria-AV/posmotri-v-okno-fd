@@ -91,10 +91,6 @@ ol {
   height: 386px;
 }
 
-.result__video-container .preloader {
-  position: absolute;
-}
-
 .result__video {
   width: 711px;
   height: 386px;
@@ -132,10 +128,6 @@ form.search-form h2 {
   margin-top: 218px;
 }
 
-.content__list {
-  gap: 30px;
-}
-
 .content__list-container {
   position: relative;
   display: flex;
@@ -148,10 +140,6 @@ form.search-form h2 {
 
 .content__list-container:last-child {
   gap: 34px;
-}
-
-.content__list-container .preloader {
-  position: absolute;
 }
 
 .content__list {
