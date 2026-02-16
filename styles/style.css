@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -68,7 +68,6 @@ ol {
   flex-direction: row;
   align-items: flex-end;
   min-width: 1200px;
-  min-height: 800px;
   gap: 5px;
   padding-left: 61px;
   margin-bottom: 250px;
@@ -81,7 +80,7 @@ ol {
   justify-content: flex-end;
   align-self: flex-start;
   width: 100%;
-  margin-top: 335px;
+  margin-top: 329px;
 }
 
 .result__video-container {
@@ -102,7 +101,7 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  font-family: "Fira Sans Condensed";
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 400;
   height: 100%;
@@ -110,13 +109,6 @@ ol {
   gap: 15px;
   padding-right: 24px;
   padding-top: 17px;
-}
-
-form.search-form h2 {
-  font-weight: 100;
-  font-family: "Fira Sans Condensed";
-  font-size: 18px;
-  font-style: normal;
 }
 
 .content__details {
@@ -145,7 +137,7 @@ form.search-form h2 {
 .content__list {
   display: flex;
   flex-direction: column;
-  gap: 31px;
+  gap: 33px;
 }
 
 .content__list-item {
@@ -178,13 +170,14 @@ form.search-form h2 {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: "Oswald";
+  font-weight: 700;
   font-size: 75px;
   text-transform: uppercase;
   line-height: 70px;
   letter-spacing: 0.1px;
   margin-bottom: 19px;
-  padding-top: 45px;
+  padding-top: 36px;
 }
 
 .content__accent {
@@ -198,6 +191,7 @@ form.search-form h2 {
 
 .content__video-card-title {
   font-family: "Oswald";
+  font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
   overflow: hidden;
@@ -228,6 +222,7 @@ form.search-form h2 {
 .search-form__textfield {
   font-family: "Fira Sans Condensed";
   font-size: 18px;
+  font-weight: 400;
   border: solid #ffffff;
   border-width: 2px 0;
   background: none;
@@ -271,7 +266,7 @@ form.search-form h2 {
   opacity: 1;
 }
 
-.search-form__checkbox-list:hover {
+.search-form__label-text:hover {
   text-decoration: underline;
 }
 
